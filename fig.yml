@@ -1,0 +1,4 @@
+serviceDiscovery:
+  image: wgorder/service-discovery
+  ports:
+    - "8761:8761"
