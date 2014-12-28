@@ -2,11 +2,11 @@ info:
   component: Service Discovery
 
 security:
-    basic:
+  basic:
     enabled: false
 management:
-    security:
-        enabled: false
+  security:
+    enabled: false
 
 logging:
   level:
