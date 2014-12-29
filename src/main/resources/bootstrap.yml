@@ -1,16 +1,4 @@
 spring:
   application:
-    name: service-discovery
+    name: network-discovery
 
-server:
-  port: 8761
-security:
-  basic:
-    enabled: false
-
-eureka:
-  client:
-    registerWithEureka: false
-    fetchRegistry: false
-  server:
-    waitTimeInMsWhenSyncEmpty: 0

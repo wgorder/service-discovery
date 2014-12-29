@@ -7,10 +7,12 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer
 import org.springframework.context.annotation.ComponentScan
 import org.springframework.context.annotation.Configuration
+import org.springframework.stereotype.Controller
 
 
 @SpringBootApplication
 @EnableEurekaServer
+@EnableDiscoveryClient
 class ServiceDiscoveryServiceApplication {
 
     static void main(String[] args) {
