@@ -1,4 +1,7 @@
 spring:
   application:
-    name: network-discovery
+    name: service-discovery
+app:
+  host: localhost
+
 

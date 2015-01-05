@@ -1,15 +1,19 @@
 package com.acme.demo.discovery
 
 import org.springframework.boot.SpringApplication
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration
+
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer
-import org.springframework.context.annotation.ComponentScan
-import org.springframework.context.annotation.Configuration
-import org.springframework.stereotype.Controller
 
 
+/**
+ * The Eureka server.  We could run multiple instances but for this demo we are just running a single
+ * standalone instance with no peer discovery.
+ *
+ * @author William Gorder
+ * @since 12/30/2014
+ */
 @SpringBootApplication
 @EnableEurekaServer
 @EnableDiscoveryClient
